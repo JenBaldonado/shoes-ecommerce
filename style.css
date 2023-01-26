@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  align-items: center;
+  height: 10vh;
+}
+.logo{
+  padding-left: 2em;
+}
+.logo-image{
+  height: 50px;
+  width: 50px;
+}
+.nav-menu ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 16px;
+}
+.search-menu{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-right: 2em;
+}
+
+.collpase-menu{
+  display: flex;
+}
+.toggler-btn{
+ visibility: hidden;
+}
