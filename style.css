@@ -5,13 +5,22 @@
 }
 .navBar{
   display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
   background-color: gray;
   align-items: center;
-  height: 10vh;
+  /* height: 10vh; */
+}
+.container{
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+  width:100%;
 }
 .logo{
-  padding-left: 2em;
+  /* padding-left: 2em; */
+  /* padding-top: 0.5em; */
+  /* padding-bottom: 0.5em;; */
+  width:40%;
 }
 .logo-image{
   height: 50px;
@@ -19,7 +28,8 @@
 }
 .nav-menu ul{
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
   list-style: none;
   gap: 16px;
 }
@@ -28,11 +38,21 @@
   gap: 16px;
   align-items: center;
   padding-right: 2em;
+  
 }
-
+.search-bar{
+  height: 2em;
+  border-radius: 18px;
+  padding: 1em;
+  border:none;
+}
 .collpase-menu{
   display: flex;
+  justify-content: space-between;
+  width:50%;
+  margin:0 auto;
 }
 .toggler-btn{
- visibility: hidden;
+ display:block;
+ 
 }
